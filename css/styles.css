@@ -1,0 +1,290 @@
+/* .above-image-title {
+  position:absolute;
+  top: 5%;
+} */
+
+.above-image-footer {
+  padding: 68vw 0 10% 0;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+h3,h4,h5 {
+  font-family: "Source Sans 3";
+}
+
+/* Headings */
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #4e4f4b;
+  color: #e9e8e4;
+}
+.white-section {
+  background-color: #fff;
+  text-align: center;
+}
+
+/* НАВБАР */
+
+/* Title Section --------------------------------------------------------------*/
+#title .cont-fluid {
+  position:absolute;
+  top: 20%;
+  /* left:5%; */
+  padding: 20%;
+  text-align: center;
+  /* height: 80%; */
+  width:100%;
+  color: #fff;
+}
+
+.title-sec {
+  padding: 20px 0;
+}
+
+/* #title .img{
+    height: 100vh;
+    width: 100vh; */
+  /* object-fit: cover; */
+  /* background-size: cover;
+  top: 0px;
+  left: 0px;
+} */
+
+.title-img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+}
+.container-image{
+  height:100vh;
+  width:100%;
+  overflow:hidden;
+  border: 0;
+}
+
+@media (max-width: 1100px) {
+  .section-heading {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  #title .card-title {
+    font-size: 4rem;
+    line-height: 1.5;
+  }
+  #title .card-text {
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  #title .card-title {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  #title .card-text {
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .section-heading {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  #title .card-title {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  #title .card-text {
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+  #title .cont-fluid {
+    left:5%;
+  }
+
+}
+
+/* Портфолио ----------------------------------------------------------------------*/
+.portfolio-sec {
+  padding: 60px 0 20px;
+}
+.portfolio-container {
+  width: 100%;
+  padding: 0 10% 0 10%;
+  text-align: center;
+}
+.portfolio-column {
+  padding: 2% 2%;
+}
+
+.portfolio-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* задать вопрос----------------------------------------------------------------- */
+.askme {
+  padding: 60px 15%;
+}
+.askme-input {
+  padding: 5% 10% 5% 10%;
+}
+.about-work {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 20px;
+}
+.button-about-work {
+  font-size: 20px;
+  padding: 2% 3%;
+}
+
+.button-askme {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#askme .collapse {
+  color: black;
+}
+
+@media (max-width: 900px){
+  .askme-heading {
+    text-align: center;
+  }
+}
+
+/* ОБО мне ---------------------------------------------------------------------*/
+.aboutme-heading {
+    padding: 40px 0 20px;
+    text-align: center;
+}
+.aboutme-sec {
+  padding-top: 2% ;
+  padding: 2% 20% 5%;
+}
+.aboutme-container {
+  padding: 3% 5%;
+  /* width: 90%; */
+  text-align: center;
+}
+.img-aboutme-box{
+  text-align: center;
+}
+.text-aboutme {
+  text-align: justify;
+  vertical-align: top;
+}
+
+#aboutme h4 {
+  font-family: "Montserrat";
+  line-height: 1.2;
+}
+
+#aboutme .carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 1.5rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #000;
+    text-align: center;
+  }
+@media (max-width: 900px) {
+  .aboutme-sec {
+    padding-top: 2% ;
+    padding: 2% 12% 5%;
+  }
+}
+  @media (max-width: 700px) {
+  #aboutme p {
+    font-size: 0.8rem;
+  }
+  #aboutme .carousel-caption {
+      position: absolute;
+      right: 15%;
+      top: 0;
+      left: 15%;
+      padding-top: 0.5rem;
+      padding-bottom: 1.25rem;
+      color: #000;
+      text-align: center;
+    }
+}
+
+/* прайс */
+.price-class {
+  padding: 60px 15%;
+}
+.price-text {
+  text-align: center;
+  padding: 0 0 20px;
+}
+.price-button-area {
+  text-align: center;
+  padding-top: 50px;
+}
+.price-button {
+  width: 100%;
+  padding: 20px 40px;
+  font-size: 25px;
+  line-height: 40px;
+  font-family: "Montserrat"
+}
+
+
+/* ОТЗЫВЫ */
+
+.review-class {
+  padding: 60px 12% 50px;
+}
+.image-wrapper{
+  display: flex;
+}
+.rewiew-img {
+  margin:0 .5em;
+  width: calc(100%/3)
+
+}
+.review-heading {
+  padding: 0 0 3% 0;
+}
+
+
+/* КОНТАКТЫ */
+.contacts {
+  padding: 60px 10% 40px;
+}
+.contact-button {
+  padding:20px 0;
+}
+.social-icon {
+  margin: 20px 10px;
+  color: #fff;
+}
+/* .map {
+  text-align: center;
+  padding: 60px 0;
+} */
