@@ -42,7 +42,7 @@ h3,h4,h5 {
 #title .cont-fluid {
   position:absolute;
   top: 20%;
-  /* left:5%; */
+  left:5%;
   padding: 20%;
   text-align: center;
   /* height: 80%; */
@@ -71,7 +71,7 @@ h3,h4,h5 {
   top: 0px;
   left: 0px;
 }
-.container-image{
+.container-image {
   height:100vh;
   width:100%;
   overflow:hidden;
@@ -179,7 +179,11 @@ h3,h4,h5 {
   padding: 60px 15%;
 }
 .askme-input {
-  padding: 5% 10% 5% 10%;
+  padding: 5%;
+}
+.askme-heading {
+  padding: 5%;
+  height: 150px;
 }
 .about-work {
   padding-top: 2%;
@@ -201,7 +205,10 @@ h3,h4,h5 {
 #askme .collapse {
   color: black;
 }
-
+#askme .section-heading {
+  font-size: 2rem;
+  text-align: left;
+}
 @media (max-width: 900px){
   .askme-heading {
     text-align: center;
@@ -286,8 +293,19 @@ h3,h4,h5 {
   line-height: 40px;
   font-family: "Montserrat"
 }
-
-
+.card-header-text {
+    font-size: 1.3rem;
+    font-family: "Montserrat";
+    text-align: center;
+    vertical-align: middle;
+}
+#price .card-header {
+height: 100px;
+}
+#price .card-title {
+  font-size: 1.1rem;
+  font-family: "Montserrat";
+}
 /* ОТЗЫВЫ */
 
 .review-class {

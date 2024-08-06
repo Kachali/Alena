@@ -64,7 +64,7 @@
 
 <!-- Title -------------------------------------------------------------------------->
 <div class="container-image">
-    <img src="images/title/1.jpg" class="d-none d-sm-block d-sm-none d-md-block title-img" alt="...">
+    <img src="images/title/1.jpg" class="title-img d-none d-sm-block d-sm-none d-md-block" alt="...">
     <img src="images/title/1.jpg" class="card-img d-lg-none d-lg-none d-md-none" alt="...">
     <!-- <div class="container text-center"> -->
     <div class="cont-fluid">
@@ -179,54 +179,73 @@
   <section class="colored-section" id="askme">
     <div class="container-fluid askme">
       <div class='row'>
-        <div class="col-lg-7">
-          <h2 class="section-heading askme-heading">Что входит в работу</h2>
+        <div class="col-lg-6">
+          <div class='askme-heading'>
+            <h2 class="section-heading">Что входит в работу</h2>
+          </div>
           <div class='about-work'>
-            <a class='btn btn-dark button-about-work' data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Обмерный план</a>
+            <a class='btn btn-dark button-about-work' data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Сбор исходных данных</a>
             <div class="collapse" id="collapseExample">
               <div class="card card-body">
-                Обмерный план бла-бла бла
+                <li>Обмерный план помещения</li>
+                <li>Аналоговый ряд (выявление потребностей)</li>
+                <li>План с расстановкой мебели и оборудования (проработка нескольких
+вариантов)</li>
               </div>
             </div>
           </div>
           <div class='about-work'>
-            <a class='btn btn-dark button-about-work' data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">Поэтажные планы</a>
+            <a class='btn btn-dark button-about-work' data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">Монтажные планы</a>
               <div class="collapse" id="collapseExample2">
                 <div class="card card-body">
-                  Поэтажные план бла-бла бла
+                  <li>План демонтажа перегородок, радиаторов и других конструкций</li>
+                <li>План монтажа вновь возводимых перегородок и конструкций</li>
+                <li>План точек выводов инженерных коммуникаций</li>
+                <li>План электрических приборов с привязкой к выключателям</li>
+                <li>План штепсельной сети (план розеток и выводов)</li>
+                <li>и тд.</li>
                 </div>
               </div>
             </div>
 
             <div class='about-work'>
-              <a class='btn btn-dark button-about-work' data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">3Д визуализации</a>
+              <a class='btn btn-dark button-about-work' data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">3D визуализация</a>
                 <div class="collapse" id="collapseExample3">
                   <div class="card card-body">
-                    3D всех помещенией в количестве n штук
+                    Фотореалистичная 3D-визуализация всех помещенией
                   </div>
                 </div>
               </div>
 
               <div class='about-work'>
-                <a class='btn btn-dark button-about-work' data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">И многое другое</a>
+                <a class='btn btn-dark button-about-work' data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">Спецификации</a>
                   <div class="collapse" id="collapseExample4">
                     <div class="card card-body">
-                      <li>План возведения</li>
-                      <li>План проемов</li>
-                      <li>План электрики</li>
-                      <li>План освещения</li>
-                      <li>План теплых полов</li>
-                      <li>План сантехники</li>
+                      <li>Спецификация сантехнического оборудования</li>
+                      <li>Спецификация осветительных приборов</li>
+                      <li>Спецификация розеток и выключателей</li>
+                      <li>Спецификация отделочных материалов (с указанием квадратуры)</li>
                     </div>
                   </div>
                 </div>
 
+                <div class='about-work'>
+                  <a class='btn btn-dark button-about-work' data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">А также</a>
+                    <div class="collapse" id="collapseExample5">
+                      <div class="card card-body">
+                        <li>Типовые узлы и сечения</li>
+                        <li>Развертка по стенам с материалами</li>
+                        <li>Ведомость основных материалов и оборудования с указанием магазинов</li>
+                      </div>
+                    </div>
+                  </div>
 
-          <p class="askme-heading">*При заказе через сайт получи скидку 5%</p>
+
         </div>
-          <div class="col-lg-5 text-center">
-            <h3 class="">Не нашли, что искали?</h3>
-            <h3 class="">Задайте нам свой вопрос!</h3>
+          <div class="col-lg-6 text-center">
+            <div class='askme-heading'>
+              <h2 class="section-heading">Не нашли, что искали? <br>Задайте нам свой вопрос!</h3>
+            </div>
             <div class='askme-input'>
             <div class="input-group-lg mb-3">
                 <input type="text" class="form-control" placeholder="Имя" aria-label="Username">
@@ -240,6 +259,7 @@
               <div class="d-grid gap-2">
                   <button type="button" class="btn btn-dark button-askme">Отправить запрос</button>
               </div>
+              <p class="">*При заказе через сайт получи скидку 5%</p>
           </div>
         </div>
       </div>
@@ -284,45 +304,59 @@
     <div class="container-fluid price-class">
       <h2 class="section-heading price-text">Стоимость дизайн-проекта</h2>
       <div class="row">
-        <div class="pricing-column col-lg-4 col-md-4">
+
+        <div class="pricing-column col-lg-3 col-md-3">
          <div class="card">
-             <div class="card-header">
-               <h3>Проект без правок</h3>
+             <div class='card-header'>
+               <h3 class="card-header-text">Полный дизайн-проект</h3>
              </div>
              <div class="card-body">
-               <h2 class="card-title">Сроки: от 45 дней</h2>
-               <p class="card-text">Стоимость: 4 500р/м2</p>
+               <h2 class="card-title">Стоимость: <br>1 700р/м2</h2>
+               <p class="card-text">Сроки: от 75 дней</p>
                <a type="button" class="w-100 btn btn-lg btn-outline-dark" href="">Состав проекта</a>
              </div>
              </div>
          </div>
 
-         <div class="pricing-column col-lg-4 col-md-4 d-none d-sm-block d-sm-none d-md-block">
+         <div class="pricing-column col-lg-3 col-md-3 d-none d-sm-block d-sm-none d-md-block">
          <div class="card">
              <div class="card-header">
-               <h3>Премиум проект</h3>
+               <h3 class="card-header-text">Дизайн-проект (без тех.части)</h3>
              </div>
-
              <div class="card-body">
-               <h2 class="card-title">Сроки: от 65 дней</h2>
-               <p class="card-text">Стоимость: 7 500р/м2</p>
+               <h2 class="card-title">Стоимость: <br>1 200р/м2</h2>
+               <p class="card-text">Сроки: от 45 дней</p>
                <a type="button" class="w-100 btn btn-lg btn-dark" href="">Состав проект</a>
              </div>
              </div>
          </div>
 
-         <div class="pricing-column col-lg-4 col-md-4 d-none d-sm-block d-sm-none d-md-block">
+         <div class="pricing-column col-lg-3 col-md-3 d-none d-sm-block d-sm-none d-md-block">
          <div class="card">
              <div class="card-header">
-               <h3>Авторский проект</h3>
+               <h3 class="card-header-text">Технический дизайн-проект</h3>
              </div>
              <div class="card-body">
-               <h2 class="card-title">Сроки: от 75 дней</h2>
-               <p class="card-text">Стоимость: 9 000р/м2</p>
+               <h2 class="card-title">Стоимость:<br>1 000р/м2</h2>
+               <p class="card-text">Сроки: от 20 дней</p>
                <a type="button" class="w-100 btn btn-lg btn-dark" href="">Состав проект</a>
              </div>
              </div>
          </div>
+
+         <div class="pricing-column col-lg-3 col-md-3 d-none d-sm-block d-sm-none d-md-block">
+         <div class="card">
+             <div class="card-header">
+               <h3 class="card-header-text">Авторский надзор</h3>
+             </div>
+             <div class="card-body">
+               <h2 class="card-title">Стоимость: от 5 000р/месяц</h2>
+               <p class="card-text">1 месяц</p>
+               <a type="button" class="w-100 btn btn-lg btn-dark" href="">Состав проект</a>
+             </div>
+             </div>
+         </div>
+
        </div>
        <div class="price-button-area">
          <a class="btn btn-dark price-button" type="button" href=''>Подробнее о том, что входит в проект</a>
@@ -459,12 +493,12 @@
       <div class='col-lg-2'>
         <a class='' href='#' aria-label="Alena">
           <img src="images/logo1.svg" height="150" width="150" alt="">
-          <p>Алена Якунина</p>
+          <!-- <p>Алена Якунина</p> -->
         </a>
       </div>
-      <div class='col-lg-10'>
+      <!-- <div class='col-lg-10'>
         <p>Алена Якунина</p>
-      </div>
+      </div> -->
     </div>
   </footer>
 
