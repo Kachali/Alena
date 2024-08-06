@@ -19,7 +19,9 @@ h2 {
 h3,h4,h5 {
   font-family: "Source Sans 3";
 }
-
+li {
+  text-align: left
+}
 /* Headings */
 .section-heading {
   font-size: 3rem;
@@ -41,12 +43,11 @@ h3,h4,h5 {
 /* Title Section --------------------------------------------------------------*/
 #title .cont-fluid {
   position:absolute;
-  top: 20%;
-  left:5%;
+  top: 25%;
+  left:10%;
   padding: 20%;
   text-align: center;
-  /* height: 80%; */
-  width:100%;
+  width: 80%;
   color: #fff;
 }
 
@@ -186,20 +187,21 @@ h3,h4,h5 {
   height: 150px;
 }
 .about-work {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding: 5% 15%;
   font-size: 20px;
+  text-align: center;
 }
 .button-about-work {
   font-size: 20px;
   padding: 2% 3%;
+  line-height: 30px;
 }
 
 .button-askme {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 #askme .collapse {
@@ -207,7 +209,7 @@ h3,h4,h5 {
 }
 #askme .section-heading {
   font-size: 2rem;
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 900px){
   .askme-heading {
@@ -339,3 +341,9 @@ height: 100px;
   text-align: center;
   padding: 60px 0;
 } */
+
+
+/* footer */
+#footer .row{
+  width: 100%;
+}
