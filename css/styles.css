@@ -175,16 +175,19 @@ li {
   line-height: 1.5;
 }
 
-/* задать вопрос----------------------------------------------------------------- */
+/* ЧТО ВХОДИТ В РАБОТУ----------------------------------------------------------------- */
 .askme {
-  padding: 60px 15%;
+  padding: 50px 15%;
 }
 .askme-input {
   padding: 5%;
 }
 .askme-heading {
   padding: 5%;
-  height: 150px;
+  height: 100px;
+}
+.easy-for-you {
+  padding: 285px 15%;
 }
 .about-work {
   padding: 5% 15%;
@@ -204,9 +207,6 @@ li {
   line-height: 30px;
 }
 
-#askme .collapse {
-  color: black;
-}
 #askme .section-heading {
   font-size: 2rem;
   text-align: center;
