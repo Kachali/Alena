@@ -157,7 +157,7 @@ li {
 
 }
 
-/* Портфолио ----------------------------------------------------------------------*/
+/* Портфолио проектов ----------------------------------------------------------------------*/
 .portfolio-sec {
   padding: 60px 0 20px;
 }
@@ -174,13 +174,14 @@ li {
   font-size: 3rem;
   line-height: 1.5;
 }
+.portfolio-text-center {
+  height: 100px;
+  text-align: center;
+}
 
 /* ЧТО ВХОДИТ В РАБОТУ----------------------------------------------------------------- */
 .askme {
   padding: 50px 15%;
-}
-.askme-input {
-  padding: 5%;
 }
 .askme-heading {
   padding: 5%;
@@ -276,7 +277,7 @@ li {
     }
 }
 
-/* прайс */
+/* СТОИМОСТЬ ДИЗАЙН-ПРОЕКТА */
 .price-class {
   padding: 60px 15%;
 }
@@ -313,7 +314,7 @@ height: 100px;
   flex-direction: row;
 } */
 /* #price .card {
-  display: flex;
+  height: 450px;
 } */
 
 /* ОТЗЫВЫ ______________________________________________________________*/
@@ -344,6 +345,17 @@ height: 100px;
 .social-icon {
   margin: 20px 10px;
   color: #fff;
+}
+.contact-input {
+  padding: 5%;
+}
+.contact-heading {
+  height: 150px;
+  padding: auto
+}
+#contacts .link {
+  /* text-decoration: none; */
+  /* color: #e9e8e4 */
 }
 /* .map {
   text-align: center;
