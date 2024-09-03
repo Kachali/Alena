@@ -30,8 +30,8 @@ li {
 
 /* Sections */
 .colored-section {
-  background-color: #4e4f4b;
-  color: #e9e8e4;
+  background-color: #E3E1D9;
+  /* color: #B4B4B8; */
 }
 .white-section {
   background-color: #fff;
@@ -289,6 +289,9 @@ li {
   text-align: center;
   padding-top: 50px;
 }
+.price-sec {
+  padding: 2% 0;
+}
 .price-button {
   width: 100%;
   padding: 20px 40px;
@@ -302,12 +305,13 @@ li {
     text-align: center;
     vertical-align: middle;
 }
-#price .card-header {
-height: 100px;
-}
 #price .card-title {
   font-size: 1.1rem;
   font-family: "Montserrat";
+  height: 45px;
+}
+#price .card-text {
+  height: 60px;
 }
 /* #price .row {
   display: flex;
@@ -340,11 +344,12 @@ height: 100px;
   padding: 60px 10% 40px;
 }
 .contact-button {
-  padding:20px 0;
+  padding:1% 0;
+  text-align: center;
 }
 .social-icon {
   margin: 20px 10px;
-  color: #fff;
+  color: #000;
 }
 .contact-input {
   padding: 5%;
@@ -366,4 +371,12 @@ height: 100px;
 /* footer */
 #footer .row{
   width: 100%;
+}
+
+
+/* футер */
+.footer-logo {
+  padding: 1% 0% 0%;
+  justify-content: center;
+  display: flex;
 }
