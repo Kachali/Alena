@@ -180,12 +180,26 @@ li {
 }
 
 /* ЧТО ВХОДИТ В РАБОТУ----------------------------------------------------------------- */
+
 .askme {
   padding: 50px 15%;
 }
 .askme-heading {
   padding: 5%;
   height: 100px;
+}
+.askme-button-img {
+  height: 80px;
+  text-align: left;
+  vertical-align: middle;
+}
+.askme-button-text {
+  vertical-align: middle;
+}
+.transparent-img {
+  opacity: 0.2;
+    height:1000px;
+    /* width: 100%; */
 }
 .easy-for-you {
   padding: 285px 15%;
@@ -197,7 +211,7 @@ li {
 }
 .button-about-work {
   font-size: 20px;
-  padding: 2% 3%;
+  padding: 2%;
   line-height: 30px;
 }
 
@@ -207,14 +221,49 @@ li {
   font-size: 20px;
   line-height: 30px;
 }
-
-#askme .section-heading {
-  font-size: 2rem;
-  text-align: center;
+.container-image-askme {
+  position: relative;
+  height:1000px;
+  width:100%;
+  border: 0;
 }
+.cont-fluid-askme {
+  position: absolute;
+  height:1000px;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%
+  color: black;
+}
+.easy-heading {
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+#askme .card-title {
+  color: black;
+}
+
+/* #askme .container-image {
+  position: relative;
+} */
 @media (max-width: 900px){
   .askme-heading {
     text-align: center;
+  }
+  .easy-for-you {
+    padding: 5% 15%;
+  }
+  .container-image-askme {
+    height: 1100px;
+      }
+  /* #askme .section-heading {
+    font-size: 1.2rem;
+  } */
+  .easy-heading {
+    font-size: 1rem;
+    color: #B4B4B8;
   }
 }
 
