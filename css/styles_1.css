@@ -1,0 +1,18 @@
+.text-portfolio-detail {
+  text-align: center;
+  vertical-align: top;
+  padding: 30px 10%;
+}
+
+.section-portfolio-detail {
+  text-align: center;
+  vertical-align: top;
+  padding-top: 100px;
+  padding-bottom: 1%;
+}
+/* .portfoli-image-section {
+  background-image: url(../images/title/2а.jpg);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+} */
