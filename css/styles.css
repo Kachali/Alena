@@ -34,6 +34,7 @@ a {
 /* Sections */
 .colored-section {
   background-color: #E3E1D9;
+  text-align: center;
   /* color: #B4B4B8; */
 }
 .white-section {
@@ -385,6 +386,28 @@ a {
 /* #price .card {
   height: 450px;
 } */
+
+
+/* что вы получаете в итоге */
+.border-cell {
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: dark;
+  padding: 5% 5% 0% 5%;
+  height: 150px;
+  text-align: center;
+}
+.summary-row{
+  padding-bottom: 1%;
+}
+
+.summary-sec {
+  padding-top: 2% ;
+  padding: 2% 10% 5%
+}
+.summary-table {
+  padding-top: 5%;
+}
 
 /* ОТЗЫВЫ ______________________________________________________________*/
 
