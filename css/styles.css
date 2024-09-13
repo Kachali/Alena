@@ -408,7 +408,36 @@ a {
 .summary-table {
   padding-top: 5%;
 }
-
+.background-div-1 {
+  background-image: url(../images/summary/1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.background-div-2 {
+  background-image: url(../images/summary/2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.background-div-3 {
+  background-image: url(../images/summary/3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.background-div-4 {
+  background-image: url(../images/summary/4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.background-div-5 {
+  background-image: url(../images/summary/5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
 /* ОТЗЫВЫ ______________________________________________________________*/
 
 .review-class {
