@@ -16,3 +16,17 @@
   background-size: cover;
   background-position: center;
 } */
+
+.image-padding {
+  padding: 1%;
+}
+
+#lenina46 .border-0 {
+  padding: 0% 0 5% 0;
+}
+#bataisk .border-0 {
+  padding: 0% 0 5% 0;
+}
+#veresaevo .border-0 {
+  padding: 0% 0 5% 0;
+}
