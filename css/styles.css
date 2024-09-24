@@ -64,6 +64,21 @@ a {
   width: 100%;
   max-width: 100%;
 }
+
+.summary-section {
+  background-image: url(../images/summary/summarybackground.jpg);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+}
+.white-text {
+  /* color: #fff; */
+  background-color: #fff;
+  opacity: 80%;
+  border-radius: 10px;
+}
 /* НАВБАР */
 
 /* Title Section --------------------------------------------------------------*/
@@ -389,10 +404,12 @@ a {
 .border-cell {
   border: 1px solid;
   border-radius: 10px;
-  border-color: dark;
+  border-color: white;
   padding: 5% 5% 0% 5%;
   height: 150px;
   text-align: center;
+  background-color: #fff;
+  opacity: 90%;
 }
 .summary-row{
   padding-bottom: 1%;
