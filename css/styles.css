@@ -200,9 +200,12 @@ a {
   height: 100px;
   text-align: center;
 }
-#portfolio-sec a {
-
+@media (max-width: 450px){
+  .portfolio-text-center-phone {
+    height: 90px;
+    text-align: center;
 }
+  }
 /* ЧТО ВХОДИТ В РАБОТУ----------------------------------------------------------------- */
 
 .askme {
