@@ -57,7 +57,7 @@ a {
   max-width: 100%;
 }
 .image-section {
-  background-image: url(../images/icons/plan-3d-03.png);
+  background-image: url(../images/icons/scheme2.jpeg);
   text-align: center;
   background-size: cover;
   background-position: center;
@@ -234,22 +234,11 @@ a {
 .askme-button-text {
   vertical-align: middle;
 }
-.transparent-img {
-  opacity: 0.4;
-  min-height: 100%;
-  width:100%;
-  min-width: 640px;
-  height: auto;
-  /* position: fixed; */
-  top: 0;
-  left: 0;
-    /* width: 100%; */
-}
 .easy-for-you {
-  padding: 50% 15%;
+  padding: 30% 15%;
 }
 .about-work {
-  padding: 5% 15%;
+  padding: 2% 15%;
   font-size: 20px;
   text-align: center;
   width: 100%;
