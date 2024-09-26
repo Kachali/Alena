@@ -56,7 +56,7 @@ a {
   width: auto;
   max-width: 100%;
 }
-.image-section {
+.development-section {
   background-image: url(../images/icons/scheme2.jpeg);
   text-align: center;
   background-size: cover;
@@ -73,6 +73,15 @@ a {
   width: 100%;
   max-width: 100%;
 }
+
+.rewiew-section {
+  background-image: url(../images/reviews/rewiewbackground.jpg);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+}
 .white-text {
   /* color: #fff; */
   background-color: #fff;
@@ -82,6 +91,16 @@ a {
 /* НАВБАР */
 
 /* Title Section --------------------------------------------------------------*/
+.title-style {
+  padding: 1% 0% 1%;
+}
+.title-button {
+  opacity: 80%;
+}
+/* #title .card-title {
+  color: black;
+} */
+
 #title .cont-fluid {
   position:absolute;
   top: 20%;
@@ -95,16 +114,6 @@ a {
 .title-sec {
   padding: 20px 0;
 }
-
-/* #title .img{
-    height: 100vh;
-    width: 100vh; */
-  /* object-fit: cover; */
-  /* background-size: cover;
-  top: 0px;
-  left: 0px;
-} */
-
 .title-img {
   height: 100vh;
   width: 100%;
@@ -234,11 +243,19 @@ a {
 .askme-button-text {
   vertical-align: middle;
 }
+
+.develop-sec {
+  padding: 5% 10% 5%;
+}
+.develop-text {
+  padding: 0% 6.5% 1%
+}
+
 .easy-for-you {
   padding: 30% 15%;
 }
 .about-work {
-  padding: 2% 15%;
+  padding: 2% 12%;
   font-size: 20px;
   text-align: center;
   width: 100%;
@@ -247,6 +264,7 @@ a {
   font-size: 20px;
   padding: 2%;
   line-height: 30px;
+  opacity:90%;
 }
 
 .button-askme {
@@ -289,10 +307,10 @@ a {
 }
 .aboutme-sec {
   padding-top: 2% ;
-  padding: 2% 20% 5%;
+  padding: 5% 15% 5%;
 }
 .aboutme-container {
-  padding: 3% 5%;
+  padding: 3% 5% 0;
   /* width: 90%; */
   text-align: center;
 }
@@ -459,9 +477,6 @@ a {
   width: calc(100%/3)
 
 }
-.review-heading {
-  padding: 0 0 3% 0;
-}
 
 
 /* КОНТАКТЫ */
@@ -479,9 +494,23 @@ a {
 .contact-input {
   padding: 5%;
 }
-.contact-heading {
+.contact-input-2{
+  padding: 20% 5%;
+  background-image: url(../images/icons/scheme2.jpeg);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+/* .lozung {
+  padding: 0% 5%;
+
+} */
+/* .contact-heading {
   height: 150px;
-  padding: auto
+  padding: auto */
 }
 #contacts .link {
   text-decoration: underline;
