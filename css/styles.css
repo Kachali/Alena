@@ -233,7 +233,7 @@ a {
 /* ЧТО ВХОДИТ В РАБОТУ----------------------------------------------------------------- */
 
 .askme {
-  padding: 50px 15%;
+  padding: 60px 15%;
 }
 .askme-button-img {
   height: 80px;
@@ -306,8 +306,7 @@ a {
     text-align: center;
 }
 .aboutme-sec {
-  padding-top: 2% ;
-  padding: 5% 15% 5%;
+  padding: 60px 15% 2%;
 }
 .aboutme-container {
   padding: 3% 5% 0;
@@ -316,10 +315,12 @@ a {
 }
 .img-aboutme-box{
   text-align: center;
+  padding: 10%;
 }
 .text-aboutme {
   text-align: justify;
   vertical-align: top;
+  padding: 10%;
 }
 
 #aboutme h4 {
@@ -339,11 +340,10 @@ a {
   }
 @media (max-width: 950px) {
   .aboutme-sec {
-    padding-top: 2% ;
-    padding: 2% 12% 5%;
+    padding: 10% 12% 5%;
   }
   .text-aboutme {
-    padding-top: 10%;
+    padding-top: 8%;
   }
 }
   @media (max-width: 700px) {
@@ -467,7 +467,7 @@ a {
 /* ОТЗЫВЫ ______________________________________________________________*/
 
 .review-class {
-  padding: 60px 12% 50px;
+  padding: 60px 12% 0;
 }
 .image-wrapper{
   display: flex;
@@ -477,11 +477,15 @@ a {
   width: calc(100%/3)
 
 }
-
+/* @media (max-width: 950px) {
+  .review-class {
+    padding-top: 10%;
+  }
+} */
 
 /* КОНТАКТЫ */
 .contacts {
-  padding: 60px 10% 40px;
+  padding: 60px 10% 0px;
 }
 .contact-button {
   padding:1% 0;
@@ -492,14 +496,14 @@ a {
   color: #000;
 }
 .contact-input {
-  padding: 5%;
+  padding: 15% 20%;
 }
 .contact-input-2{
-  padding: 20% 5%;
-  background-image: url(../images/icons/scheme2.jpeg);
+  padding: 10% 5%;
+  /* background-image: url(../images/icons/scheme2.jpeg); */
   text-align: center;
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover;
+  background-position: center; */
   width: 100%;
   max-width: 100%;
   text-align: center;
